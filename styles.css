@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-:root{
-    --primary-color:red;
-}
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
+
+:root{
+    --primary-color:#bf0000/**dark red**/;
+    --dark-grey: #3f3d56/**grey**/;
+    --off-white:  #F3F4F6 ;
+    }
+
 hr{
     margin:2rem 0rem;
 }
@@ -20,6 +25,8 @@ hr{
 .link{
     text-decoration: 0;
     padding:1rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .link-primary{
     background-color: var(--primary-color);
@@ -45,6 +52,7 @@ hr{
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 .nav-brand{
     font-weight: bold;
@@ -52,9 +60,57 @@ hr{
 .navigation .nav-pills{
     text-align: right ;
   }
-.navigation.link{
+.navigation .nav-pills .link{
     color: white;
 }
 .navigation .link-active{
     font-weight: bold;
 }
+/**header**/
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    margin:auto;
+    max-width: 350px;
+    display: block;
+}
+.hero .hero-heading{
+    text-align: center;
+    padding-top: 2rem;
+    color: var(--dark-grey);
+ 
+}
+/**section**/
+.section{
+    padding:2rem;
+}
+.section h1 {
+    text-align: center;
+}
+ .ow{
+    background-color: var(--off-white);
+}
+/**footer**/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: larger;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+
+}
+
+
+
+
