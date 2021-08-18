@@ -10,7 +10,6 @@ body{
     --dark-grey: #3f3d56/**grey**/;
     --off-white:  #F3F4F6 ;
     }
-
 hr{
     margin:2rem 0rem;
 }
@@ -24,20 +23,30 @@ hr{
 /**links**/
 .link{
     text-decoration: 0;
-    padding:1rem 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    
 }
 .link-primary{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    display: block;
+    max-width: 140px;
+    margin: 1rem;
+    margin-right:  1rem; 
+    margin-left: 0rem;
 
 }
 .link-secondary{
     color:var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color) ;
+    display: block;
+    max-width: 140px;
+    margin:1rem;
+    margin-right: 1rem;
+    margin-left: 0rem;
 }
 /**@lists**/
 .list-non-bullet{
@@ -69,6 +78,7 @@ hr{
 /**header**/
 .hero{
     padding: 2rem;
+    padding-top: 5rem;
 }
 .hero .hero-img{
     margin:auto;
@@ -94,7 +104,7 @@ hr{
 /**footer**/
 .footer{
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 4rem 1rem;
     color: white;
     text-align: center;
     border-top-right-radius: 1rem;
@@ -109,6 +119,10 @@ hr{
 .footer ul{
     padding-inline-start: 0px;
 
+}
+/**projects**/
+.showcase-list{
+    padding: 2rem;
 }
 
 
