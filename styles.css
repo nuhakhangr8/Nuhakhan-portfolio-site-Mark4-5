@@ -6,7 +6,8 @@ body{
 }
 
 :root{
-    --primary-color:#bf0000/**dark red**/;
+    --primary-color:#EF4444
+   
     --dark-grey: #3f3d56/**grey**/;
     --off-white:  #F3F4F6 ;
     }
