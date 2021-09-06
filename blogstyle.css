@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 42rem;
+    padding: 2.625rem 1.3125rem;
+}
+    h1{
+     margin-left: 5rem;
+     font-size: xxx-large;
+     padding: 2rem;
+}
+    blockquote{
+        border-left: 4px solid var(--background_pop);
+        margin: 1em 0;
+        background-color: blanchedalmond;
+    }
+    a{
+        text-decoration: none;
+    }
+    .back{
+        font-size: xx-large;
+        color:black;
+    }
+    #creepster{
+        font-family: 'Creepster', cursive;
+        color:darkred;
+    }
