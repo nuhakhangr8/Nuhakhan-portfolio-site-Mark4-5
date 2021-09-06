@@ -30,7 +30,22 @@
                 font-size: xx-large;
                 color:black;
             }
-            
+            img{
+                padding: 1rem;
+                border-radius: 1.5rem;
+            }
+
+            .s3{
+                margin-bottom: -10rem;
+            }
+            .s4{
+                margin-bottom: -2rem;
+                padding-bottom: 1.5rem;
+            }
+            .s5{
+                margin-bottom: -6rem;
+                padding-bottom:1.5rem ;
+            }
             
     </style>
 </head>
@@ -59,7 +74,7 @@
                 you give the key you get the value and it is enclosed within 
                 these "{}"" braces.
                 A typical objects look like-
-                Example: <img src="">
+                Example: <img src="/images/s1.jpg">
                 </p>
                 <p>
                     Think of object like that early morning cartoon character Oswald--
@@ -68,6 +83,7 @@
                     his tentacles here are the keys/properties. 
                     this model is called "tentacle model" 🐙
                     with objects you can objectify things in a good way.
+                    <img src="/images/Oswald.jpg" alt="">
 
                 </p>
                 <strong>How to access an object's property/key values? </strong>
@@ -76,63 +92,79 @@
                     With the help of
                     <li>
                         (.) dot notation
-                        <img src="">
+                        <img src="/images/s2.jpg">
                     </li>
                     <li>
                        ( [] ) square brackets
-                        <img src="">
+                        <img class="s3"src="/images/s3.jpg">
                     </li>
-                    
                 </ol>
+                <p>
                 We usually make us of dot notation and 
                 we use square brackets when the property
                 isn't that clear.
                 and you can also modify an objects property
-                values externally
-                superman.strength="400";
-                also 
+                values, externally--
+                <img class="s4"src="/images/s4.jpg">
+                
+                </p>
+                
                 </p>
                 <h3>Arrays</h3>
                 <p>
                     Array is a list of things-it has all the things stored in a list like order
                     Example:
-                    <img src="">
-                </p>
-                <p>
+                    <img class="s5"src="/images/s5.jpg">
+                    <br>
                     The data type a little similar to arrays is strings but we cannot do calculation and we certainly cannot put individual
                     things apart,yet together.
+                    Example: <br>
+                         strings "a" + "bc" = abc <br>
+                         and if "1" + "2" =12 <br>
+                         so to do numeric operations we take Arrays <br>
+                                       
                 </p>
                 <p>
                     <strong>How to access an Arrays' values? </strong>
                     <br>
-                    <img src="" >
-                    the syntax to access values is 
-                    console.log(groceryList[i])
-                    i is for the number
-                    Now if i ask you to get me milk from that list 
-                    your instinct would be groceryList[1]
-                    but No in Arrays we count elements from 0
-                    So the correct answer is 
-                                        groceryList[0]
+                    <img src="/images/s6.jpg" ><br>
+                    the syntax to access values is :<br>
+                     groceryList[i] , where i=number of the Array element.<br>
+                    Now if i ask you to get me milk from groceryList, 
+                    your instinct would be -> groceryList[1]--->😑 <br> 
+                    but No in Arrays we count elements from 0 
+                    that is---to get milk---you have to type -> groceryList[0]
+                                       
 
                 </p>
                 <p>
-                    you can also convert all the keys' in an object to Array.
-                    Object.keys(superheroes)
+                    <img src="/images/s7.jpg" ><br>
+                    Here, we created an object superHeroes 
+                    and added superMan and BatMan inside it. superMan and batMan are keys/properties and also individual object.
+                    you can also convert all the keys' in an object to Array. <br>
+                    Object.keys(object name)
+                    <img src="/images/s8.jpg">
 
                 </p>
                 <p>
-                    You can also create a Hybrid of an Array and Object.
-                    example:
-                        <img src="">
-                        const bookDB
+                    You can also combine an Array and Object. <br>
+                    example: <br>
+                        <img src="images/s9.jpg">
+                        Here we have created a database dB which is an object,
+                        inside we have--
+                        defined objects(genre) : javascript ,business ,fiction. 
+                        the object (genre)here are keys to constDB  
+                        and objects(genre) have values in an Array  
+                        inside the array we have two more objects(book-names),
+                        we have combined our knowledge of Array and objects and 
+                        successfully created a book database🎉
                 </p>
-                <p>One more analogy i found in the book
-                    was that objects and arrays give us the ability of putting 
+                <p>One more analogy i found in the <em>book</em>
+                    was that objects and arrays give us the ability to put 
                     different things in a single value like putting all related
-                    things in a bag and running around with it.
+                    things in a bag and running around with it,
                     instead of trying to hold everything.
-                    You must be thinking🧐 Which book?
+                    You must be thinking🧐 Which book ?
                     <a href="https://eloquentjavascript.net/">Eloquent Javascript</a>
 
                 </p>
@@ -140,7 +172,7 @@
                     If you are beginner>beginner,
                     you will definitely find it confusing, as this book 
                     is not going to spoonfeed you everything.
-                    This book has no mercy for beginner bees'.
+                    This book has no mercy for beginners'.
                     <br>
                     Always Remember👵 
                     <blockquote>
