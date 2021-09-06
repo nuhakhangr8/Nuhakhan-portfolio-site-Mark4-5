@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 .container{
     margin-left: auto;
     margin-right: auto;
@@ -13,7 +19,7 @@
     blockquote{
         border-left: 4px solid var(--background_pop);
         margin: 1em 0;
-        background-color: blanchedalmond;
+        background-color: beige;
     }
     a{
         text-decoration: none;
